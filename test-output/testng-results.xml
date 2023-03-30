@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:06,246] Validate - Step 01: Open Register Link at Home Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:06,892] Validate - Step 02: Click to Register button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:07,044] Validate - Step 03: Validate error message at First name textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:07,134]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:07,134] Validate - Step 04: Validate error message at Last name textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:07,210]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:07,210] Validate - Step 05: Validate error message at Email textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:07,291]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:07,291] Validate - Step 06: Validate error message at Password textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:07,369]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:07,369] Validate - Step 07: Validate error message at Confirm Password textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:07,447]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:07,521] Register - Step 01: Refresh the Register page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:07,539] Register - Step 02: click to Radio button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:08,000] Register - Step 03: Input to FirstName with valueSelenium
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:08,171] Register - Step 04: Input to LastName with valueTesting
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:08,350] Register - Step 05: Select dropdown with value: 12
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:08,519] Register - Step 06: Select dropdown with value: March
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:08,675] Register - Step 07: Select dropdown with value: 1987
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:08,818] Register - Step 08: Input to Email with valueautomation54974@json.com
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:09,012] Register - Step 09: Input to Password Textbox with value: 123456?a
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:09,362] Register - Step 10: Click to Register button at Register page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:10,091] Register - Step 11: Verify Success message displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:10,171]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:10,171] Register - Step 12: Click to Continue button at Register page and navigate to Home page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:10,599] Login - Step 01: Open Login Link At Home Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:11,037] Login - Step 02: Input to Email textbox with value: automation54974@json.com
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:11,200] Login - Step 03: Input to Email textbox with value: 123456?a
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:11,360] Login - Step 04: Click to Login button at Login page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:12,128] Login - Step 05: Verify My Account link displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-03-14 11:53:12,216]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="NopCommerce - Admin" duration-ms="10979" started-at="2023-03-14T04:53:01Z" finished-at="2023-03-14T04:53:12Z">
+    <groups>
+    </groups>
+    <test name="run on CHROME" duration-ms="10979" started-at="2023-03-14T04:53:01Z" finished-at="2023-03-14T04:53:12Z">
+      <class name="com.nopcommerce.user.Level17_Login_Page_Pattern_III_Json_Data_External">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.Level17_Login_Page_Pattern_III_Json_Data_External@1b9ea3e3]" name="beforeClass" is-config="true" duration-ms="4277" started-at="2023-03-14T04:53:01Z" finished-at="2023-03-14T04:53:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TC01_Validate_At_Register_Form()[pri:0, instance:com.nopcommerce.user.Level17_Login_Page_Pattern_III_Json_Data_External@1b9ea3e3]" name="TC01_Validate_At_Register_Form" duration-ms="1260" started-at="2023-03-14T04:53:06Z" finished-at="2023-03-14T04:53:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:06,246] Validate - Step 01: Open Register Link at Home Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:06,892] Validate - Step 02: Click to Register button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:07,044] Validate - Step 03: Validate error message at First name textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:07,134]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:07,134] Validate - Step 04: Validate error message at Last name textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:07,210]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:07,210] Validate - Step 05: Validate error message at Email textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:07,291]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:07,291] Validate - Step 06: Validate error message at Password textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:07,369]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:07,369] Validate - Step 07: Validate error message at Confirm Password textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:07,447]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC01_Validate_At_Register_Form -->
+        <test-method status="PASS" signature="TC02_Register_To_System()[pri:0, instance:com.nopcommerce.user.Level17_Login_Page_Pattern_III_Json_Data_External@1b9ea3e3]" name="TC02_Register_To_System" duration-ms="3074" started-at="2023-03-14T04:53:07Z" finished-at="2023-03-14T04:53:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:07,521] Register - Step 01: Refresh the Register page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:07,539] Register - Step 02: click to Radio button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:08,000] Register - Step 03: Input to FirstName with valueSelenium
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:08,171] Register - Step 04: Input to LastName with valueTesting
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:08,350] Register - Step 05: Select dropdown with value: 12
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:08,519] Register - Step 06: Select dropdown with value: March
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:08,675] Register - Step 07: Select dropdown with value: 1987
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:08,818] Register - Step 08: Input to Email with valueautomation54974@json.com
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:09,012] Register - Step 09: Input to Password Textbox with value: 123456?a
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:09,362] Register - Step 10: Click to Register button at Register page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:10,091] Register - Step 11: Verify Success message displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:10,171]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:10,171] Register - Step 12: Click to Continue button at Register page and navigate to Home page
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC02_Register_To_System -->
+        <test-method status="PASS" signature="TC03_Login_To_System()[pri:0, instance:com.nopcommerce.user.Level17_Login_Page_Pattern_III_Json_Data_External@1b9ea3e3]" name="TC03_Login_To_System" duration-ms="1621" started-at="2023-03-14T04:53:10Z" finished-at="2023-03-14T04:53:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:10,599] Login - Step 01: Open Login Link At Home Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:11,037] Login - Step 02: Input to Email textbox with value: automation54974@json.com
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:11,200] Login - Step 03: Input to Email textbox with value: 123456?a
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:11,360] Login - Step 04: Click to Login button at Login page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:12,128] Login - Step 05: Verify My Account link displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-03-14 11:53:12,216]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC03_Login_To_System -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.nopcommerce.user.Level17_Login_Page_Pattern_III_Json_Data_External@1b9ea3e3]" name="afterClass" is-config="true" duration-ms="627" started-at="2023-03-14T04:53:12Z" finished-at="2023-03-14T04:53:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.nopcommerce.user.Level17_Login_Page_Pattern_III_Json_Data_External -->
+    </test> <!-- run on CHROME -->
+  </suite> <!-- NopCommerce - Admin -->
+</testng-results>

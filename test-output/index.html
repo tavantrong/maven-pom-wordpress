@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-NopCommerce_-_Admin">
+              <span class="suite-name border-passed">NopCommerce - Admin</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-NopCommerce_-_Admin">
+                    <span>F:\Automation\04 - Maven Framework\src\test\resources\runUserTestcases.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-NopCommerce_-_Admin">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-NopCommerce_-_Admin">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-NopCommerce_-_Admin">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-NopCommerce_-_Admin">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-NopCommerce_-_Admin">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-NopCommerce_-_Admin">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-NopCommerce_-_Admin" class="hide-methods passed suite-NopCommerce_-_Admin"> (hide)</a> <!-- hide-methods passed suite-NopCommerce_-_Admin -->
+                      <a href="#" panel-name="suite-NopCommerce_-_Admin" class="show-methods passed suite-NopCommerce_-_Admin"> (show)</a> <!-- show-methods passed suite-NopCommerce_-_Admin -->
+                    </span>
+                    <div class="method-list-content passed suite-NopCommerce_-_Admin">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NopCommerce_-_Admin" title="com.nopcommerce.user.Level17_Login_Page_Pattern_III_Json_Data_External" hash-for-method="TC01_Validate_At_Register_Form">TC01_Validate_At_Register_Form</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NopCommerce_-_Admin" title="com.nopcommerce.user.Level17_Login_Page_Pattern_III_Json_Data_External" hash-for-method="TC02_Register_To_System">TC02_Register_To_System</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NopCommerce_-_Admin" title="com.nopcommerce.user.Level17_Login_Page_Pattern_III_Json_Data_External" hash-for-method="TC03_Login_To_System">TC03_Login_To_System</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-NopCommerce_-_Admin -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-NopCommerce_-_Admin" class="panel NopCommerce_-_Admin">
+          <div class="suite-NopCommerce_-_Admin-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.user.Level17_Login_Page_Pattern_III_Json_Data_External</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC01_Validate_At_Register_Form">
+                  </a> <!-- TC01_Validate_At_Register_Form -->
+                  <span class="method-name">TC01_Validate_At_Register_Form</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC02_Register_To_System">
+                  </a> <!-- TC02_Register_To_System -->
+                  <span class="method-name">TC02_Register_To_System</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC03_Login_To_System">
+                  </a> <!-- TC03_Login_To_System -->
+                  <span class="method-name">TC03_Login_To_System</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NopCommerce_-_Admin-class-passed -->
+        </div> <!-- panel NopCommerce_-_Admin -->
+        <div panel-name="test-xml-NopCommerce_-_Admin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Automation\04 - Maven Framework\src\test\resources\runUserTestcases.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;NopCommerce - Admin&quot;&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://demo.nopcommerce.com/&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;commons.MethodListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;run on CHROME&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.nopcommerce.user.Level17_Login_Page_Pattern_III_Json_Data_External&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- run on CHROME --&gt;
+&lt;/suite&gt; &lt;!-- NopCommerce - Admin --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-NopCommerce_-_Admin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for NopCommerce - Admin</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">run on CHROME (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-NopCommerce_-_Admin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for NopCommerce - Admin</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-NopCommerce_-_Admin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for NopCommerce - Admin</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_NopCommerce_-_Admin');
+function tableData_NopCommerce_-_Admin() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC02_Register_To_System')
+data.setCell(0, 2, 'com.nopcommerce.user.Level17_Login_Page_Pattern_III_Json_Data_External')
+data.setCell(0, 3, 3074);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC03_Login_To_System')
+data.setCell(1, 2, 'com.nopcommerce.user.Level17_Login_Page_Pattern_III_Json_Data_External')
+data.setCell(1, 3, 1621);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC01_Validate_At_Register_Form')
+data.setCell(2, 2, 'com.nopcommerce.user.Level17_Login_Page_Pattern_III_Json_Data_External')
+data.setCell(2, 3, 1260);
+window.suiteTableData['NopCommerce_-_Admin']= { tableData: data, tableDiv: 'times-div-NopCommerce_-_Admin'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-NopCommerce_-_Admin">
+              </div> <!-- times-div-NopCommerce_-_Admin -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-NopCommerce_-_Admin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for NopCommerce - Admin</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC01_Validate_At_Register_Form</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:06,246] Validate - Step 01: Open Register Link at Home Page
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:06,892] Validate - Step 02: Click to Register button
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:07,044] Validate - Step 03: Validate error message at First name textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:07,134]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:07,134] Validate - Step 04: Validate error message at Last name textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:07,210]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:07,210] Validate - Step 05: Validate error message at Email textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:07,291]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:07,291] Validate - Step 06: Validate error message at Password textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:07,369]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:07,369] Validate - Step 07: Validate error message at Confirm Password textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:07,447]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC03_Login_To_System</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:10,599] Login - Step 01: Open Login Link At Home Page
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:11,037] Login - Step 02: Input to Email textbox with value: automation54974@json.com
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:11,200] Login - Step 03: Input to Email textbox with value: 123456?a
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:11,360] Login - Step 04: Click to Login button at Login page
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:12,128] Login - Step 05: Verify My Account link displayed
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:12,216]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC02_Register_To_System</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:07,521] Register - Step 01: Refresh the Register page
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:07,539] Register - Step 02: click to Radio button
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:08,000] Register - Step 03: Input to FirstName with valueSelenium
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:08,171] Register - Step 04: Input to LastName with valueTesting
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:08,350] Register - Step 05: Select dropdown with value: 12
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:08,519] Register - Step 06: Select dropdown with value: March
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:08,675] Register - Step 07: Select dropdown with value: 1987
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:08,818] Register - Step 08: Input to Email with valueautomation54974@json.com
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:09,012] Register - Step 09: Input to Password Textbox with value: 123456?a
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:09,362] Register - Step 10: Click to Register button at Register page
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:10,091] Register - Step 11: Verify Success message displayed
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:10,171]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-03-14 11:53:10,171] Register - Step 12: Click to Continue button at Register page and navigate to Home page
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-NopCommerce_-_Admin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-NopCommerce_-_Admin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.user.Level17_Login_Page_Pattern_III_Json_Data_External</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(chrome, https://demo.nopcommerce.com/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC01_Validate_At_Register_Form</span>
+                <span class="method-start">4289 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC02_Register_To_System</span>
+                <span class="method-start">5620 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC03_Login_To_System</span>
+                <span class="method-start">8698 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">10321 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

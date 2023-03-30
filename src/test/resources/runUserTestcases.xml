@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NopCommerce - Admin" parallel="false">
+
+<parameter name="url" value="https://demo.nopcommerce.com/" />
+
+<listeners>
+<listener class-name = "commons.MethodListener" />
+<!-- <listener class-name = "reportConfig.ExtentReportListenerV2" /> -->
+<!-- <listener class-name = "reportConfig.ExtentReportListenerV4" /> -->
+<!-- <listener class-name = "reportConfig.AllureReportListener" />
+<listener class-name = "org.uncommons.reportng.HTMLReporter" />
+<listener class-name = "org.uncommons.reportng.JUnitXMLReporter" /> -->
+
+</listeners>
+  <test name="run on CHROME">
+  <parameter name="browser" value="chrome" />
+    <classes>
+    <class name="com.nopcommerce.user.Level17_Login_Page_Pattern_III_Json_Data_External"/>
+    </classes>
+  </test> 
+  
+  </suite>

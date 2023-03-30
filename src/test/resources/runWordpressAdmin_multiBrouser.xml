@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="WordPress - Admin" parallel="false">
+
+	<parameter name="url" value="https://wordpress.com/log-in" />
+
+	<test name="run on FIREFOX">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.wordpress.posts.Level04_Login_Multi_Browser" />
+		</classes>
+	</test>
+
+	<test name="run on CHROME">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.wordpress.posts.Level04_Login_Multi_Browser" />
+		</classes>
+	</test>
+
+	<test name="run on EDGE CHROMIUM">
+		<parameter name="browser" value="edge_chromium" />
+		<classes>
+			<class name="com.wordpress.posts.Level04_Login_Multi_Browser" />
+		</classes>
+	</test>
+
+</suite>

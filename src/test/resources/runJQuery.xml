@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Jquery table" parallel="false">
+
+<parameter name="url" value="https://blueimp.github.io/jQuery-File-Upload/" />
+
+  <test name="run on FIREFOX">
+  <parameter name="browser" value="firefox" />
+    <classes>
+    <class name="com.jquery.table.Level10_Upload_File"/>
+    </classes>
+  </test> 
+  
+  <test name="run on CHROME">
+  <parameter name="browser" value="chrome" />
+    <classes>
+    <class name="com.jquery.table.Level10_Upload_File"/>
+    </classes>
+  </test> 
+  
+  </suite>

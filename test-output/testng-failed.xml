@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NopCommerce - Admin]">
+  <parameter name="url" value="https://demo.nopcommerce.com/"/>
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+  </listeners>
+  <test thread-count="5" name="run on CHROME(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nopcommerce.user.Level17_Login_Page_Pattern_III_Json_Data_External">
+        <methods>
+          <include name="TC02_Register_To_System"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="TC03_Login_To_System"/>
+        </methods>
+      </class> <!-- com.nopcommerce.user.Level17_Login_Page_Pattern_III_Json_Data_External -->
+    </classes>
+  </test> <!-- run on CHROME(failed) -->
+</suite> <!-- Failed suite [NopCommerce - Admin] -->
